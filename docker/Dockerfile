@@ -6,7 +6,7 @@ RUN    apt-get install -y software-properties-common python-software-properties 
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN ln -s /usr/bin/nodejs /usr/bin/node && \
-    npm install -g bower && \
+    npm install -g bower@1.3.12 && \
     npm install -g clean-css
 
 RUN useradd -ms /bin/bash wiki
