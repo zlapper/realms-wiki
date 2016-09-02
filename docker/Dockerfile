@@ -13,7 +13,7 @@ RUN useradd -ms /bin/bash wiki
 
 USER wiki
 
-RUN git clone https://github.com/scragg0x/realms-wiki /home/wiki/realms-wiki
+RUN git clone https://github.com/zlapper/realms-wiki /home/wiki/realms-wiki
 
 WORKDIR /home/wiki/realms-wiki
 
